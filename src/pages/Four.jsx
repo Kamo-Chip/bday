@@ -7,7 +7,7 @@ const Four = () => {
   return (
     <div className="four">
       <h1 style={{textAlign: "center"}}>The world's best Ass</h1>
-      <img src={Ass} alt="" />
+      <img src={Ass} alt="" style={{height: "370px"}}/>
       <button onClick={() => navigate("/")}>Back To Main</button>
     </div>
   );
